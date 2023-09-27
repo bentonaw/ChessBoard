@@ -1,4 +1,6 @@
-﻿namespace ChessBoard
+﻿using System.Data.Common;
+
+namespace ChessBoard
 {
     internal class Program
     {
@@ -108,6 +110,12 @@
 
             Console.WriteLine($"You have chosen {chosenPieceString} which we now can place on the board.");
             Console.WriteLine("Where would you like to place it? First Column starts with \"A\" and the first row starts with \"1\". Eg. E7");
+            //string location = Console.ReadLine();
+            //char letter = location[0];
+            //enum alphabet {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+            //int columnY = alphabet.location[0];
+            //int rowX = location[1];
+
         }
 
         }
